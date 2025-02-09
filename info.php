@@ -1,31 +1,28 @@
-<!doctype html>
-<html>
- <head>
-      <title>IBN Sports Hub</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="CSS/main.css">
- </head>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Hub</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
 <body>
-
-
-<div class="container">
-	<img src="images/logo.png">
-	<h1>Welcome to IBNSPORTS</h1>
-	<p>Explore the Duke of York Royal Military School's Sports by selecting one below:</p>
-	
-	<div class="sports-buttons">
-		
-		<a href="rugby.php"> RUGBY</a>
-		<a href="rugby.php">NETBALL</a>
-		<a href="rugby.php">HOCKEY</a>
-		<a href="rugby.php">CRICKET</a>
-	</div>
-</div>
-		
-		
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#rugby">Rugby</a></li>
+                <li><a href="#hockey">Hockey</a></li>
+                <li><a href="#cricket">Cricket</a></li>
+                <li><a href="#netball">Netball</a></li>
+                <li><a href="#basketball">Basketball</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="background">
+            <center> <img src="images/logo.png"></center>
+            <h1>Welcome to IBNSPORTS HUB</h1>
+        </section>
+        
+    </main>
 </body>
-</html>
-
-

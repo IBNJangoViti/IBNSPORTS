@@ -1,107 +1,50 @@
 
-
-body {
-	margin: 0;
-	padding: 0;
-	background-color: #f4f4f4;
-	text-align: center;
-	display:flex;
-	align-items:center;
-	justify-content: center;
-	min-height: 100vh;
-	margin: 0;
-	background-image: url("../images/dukiest.jpg");
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: 100% 100%;
-	
-}
-
-.container {
-	max-width: 90%; 
-	margin: 400px;
-	padding: 20px;
-	background: white;
-	box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	border-radius:10px;
-	
-	
-}
-
-h1 {
-        color: #333;
-        font-size: 24px;
-}
-
-p{
-	font-size: 16px;
-}
-.sports-buttons {
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-            
-}
-.sports-buttons a {
-            text-decoration: none;
-            padding: 12px;
-            color: white;
-            background-color: #007bff;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: 0.3s;
-            display: block;
-        }
-.sports-buttons a:hover {
-            background-color: #0056b3;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
-	background-color: #6c757d;
-	color: white;
-	padding: 20px;
-	font-size: 24px
-	
+    background-color: #333;
+    padding: 10px 0;
 }
 
-.values {
-	padding:20px;
-	font-size: 20px;
-	font-weight: bold;
-	
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-footer {
-	background-color: #333;
-	color: white;
-	padding: 15px;
-	font-size: 14px;
-}
-@media (min-width: 600px) {
-
-	.sports-button {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center
-		
-		}
-		
-	header {
-		font-size: 20px;
-		padding:15px;
-	}
-	
-	
-	.values {
-		font-size:18px;
-		padding:15px
-	}
-	
-	footer {
-		font-size: 12px;
-		padding: 8px
-	}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
 }
 
-	
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.background {
+    height: 100vh;
+    background-image: url('../images/dukiest.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 48px;
+}
 
