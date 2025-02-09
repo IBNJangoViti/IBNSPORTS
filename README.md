@@ -1,4 +1,7 @@
-# IBNSPORTS
-This is the HTML, CSS for my IBNSPORTS Website for the Duke of York Royal Military School.
+# This is property of Iliesa Bari Nalewabau 
 
-This project is apart of my EPQ that I will be developing.
+This is Sports website for the DUKE OF YORK ROYAL MILITARY SCHOOL
+
+There is player names and info in databases that I will not show publically. 
+
+Please subscribe to Jango Viti
