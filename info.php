@@ -9,20 +9,30 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#rugby">Rugby</a></li>
-                <li><a href="#hockey">Hockey</a></li>
-                <li><a href="#cricket">Cricket</a></li>
-                <li><a href="#netball">Netball</a></li>
-                <li><a href="#basketball">Basketball</a></li>
+        <div class="menu-toggle" onclick="toggleMenu()">HUB MENU</div>
+            <ul class="navbar">
+                <li><a href="#rugby" class="nav-button">Rugby</a></li>
+                <li><a href="#hockey"class="nav-button">Hockey</a></li>
+                <li><a href="#cricket"class="nav-button">Cricket</a></li>
+                <li><a href="#netball"class="nav-button">Netball</a></li>
+                <li><a href="#basketball"class="nav-button">Basketball</a></li>
+                
             </ul>
         </nav>
+        <center> <h1>Welcome to IBNSPORTS HUB</h1> </center>
     </header>
     <main>
         <section class="background">
             <center> <img src="images/logo.png"></center>
-            <h1>Welcome to IBNSPORTS HUB</h1>
+            
         </section>
-        
+       
     </main>
+    <script>
+    
+    function toggleMenu() {
+    	const navbar = document.querySelector(".navbar");
+    	navbar.classList.toggle("active")
+    }
+    </script>
 </body>
